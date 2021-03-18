@@ -138,7 +138,7 @@ if __name__ == "__main__":
                 print(osoba)
                 speak(osoba)
             except:
-                speak("Nie udało mi się nzlaeźć żadnych informacji o tej osobie")
+                speak("Nie udało mi się znaleźć żadnych informacji o tej osobie")
 
         elif 'otwórz stronę' in query: # np otwórz stronę allegro.pl
             domena = query.replace("otwórz stronę",'')
