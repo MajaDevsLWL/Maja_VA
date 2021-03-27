@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pyttsx3  # pip install pyttsx3
 from datetime import datetime
 import requests # pip install requests
