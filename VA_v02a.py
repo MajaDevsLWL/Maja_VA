@@ -95,10 +95,8 @@ def takeCommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Nasłuchuje...")
-        animate()
         r.pause_threshold = 1
-        audio = r.listen(source)
-    
+        audio = r.listen(source)    
     try:
         print("Rozpoznawanie...")
         query = r.recognize_google(audio, language='pl-PL')
