@@ -92,6 +92,7 @@ t = threading.Thread(target=animate)
 t.start()
 
 def takeCommand():
+    animate()
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Nasłuchuje...")
