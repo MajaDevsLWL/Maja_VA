@@ -61,7 +61,7 @@ strTime = datetime.now().strftime("%H:%M")
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
-speak("Witaj jestm Maja, Twój wirtualny asystent")
+speak("Witaj jestem Maja, twój wirtualny asystent")
 
 def wishme():
     speak("Witaj ponownie")
