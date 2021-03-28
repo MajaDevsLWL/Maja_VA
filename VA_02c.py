@@ -277,13 +277,15 @@ if __name__ == "__main__":
             miasto = takeCommand().lower()
             webbrowser.open(f"www.google.com/search?q=temperatura+{miasto}")
 
+# TODO:
+'''
         elif "alarm" in query or "budzik" in query:
             print("Na którą godzinę nastawić alarm?")
             speak(f"Teraz jest{strTime}.")
             print("Wpisz godzinę alarmu.")
             alarm = float(input("Godzina alarmu: (eg. 21.37, 04.20 \n"))
             speak(f"Alarm Ustawiony na godzinę {alarm}.")
-            time.sleep(alarm*3600)
+            time.sleep(alarm*3641.)
             sound = "alarm_sound.wav"
             repitions = 5
 
@@ -294,6 +296,6 @@ if __name__ == "__main__":
                         time.sleep(5)
                         winsound.PlaySound(None, winsound.SND_ASYNC)
                     break
-
+'''
         speak("Coś jeszcze?")
         print("Błędy? Pisz na discordzie: https://discord.gg/EPx9CQBxyF")
