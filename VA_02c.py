@@ -283,7 +283,7 @@ if __name__ == "__main__":
             print("Wpisz godzinę alarmu.")
             alarm = float(input("Godzina alarmu: (eg. 21.37, 04.20 \n"))
             speak(f"Alarm Ustawiony na godzinę {alarm}.")
-            time.sleep(alarm)
+            time.sleep(alarm*3600)
             sound = "alarm_sound.wav"
             repitions = 5
 
